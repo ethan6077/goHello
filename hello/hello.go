@@ -23,10 +23,13 @@ func main() {
 	// pizzaMap := pizzas.GetPizzaMap()
 	// fmt.Println(pizzaMap)
 
-	p := Person{Name: "Ethan", countGreets: 0}
-	fmt.Println(p.Greet())
-	fmt.Println(p.Greet())
-	fmt.Println(p.Greet())
-	fmt.Println(p.Bye())
+	// p := Person{Name: "Ethan", countGreets: 0}
+	// fmt.Println(p.Greet())
+	// fmt.Println(p.Greet())
+	// fmt.Println(p.Greet())
+	// fmt.Println(p.Bye())
+
+	WriteToFile()
+	defer ReadFromFile("./fromString.txt")
 
 }
