@@ -29,7 +29,9 @@ func main() {
 	// fmt.Println(p.Greet())
 	// fmt.Println(p.Bye())
 
-	WriteToFile()
-	defer ReadFromFile("./fromString.txt")
+	// WriteToFile()
+	// defer ReadFromFile("./fromString.txt")
+
+	ReadFromListingSearchApi("145410156")
 
 }
